@@ -23,23 +23,27 @@ public class Main {
 
         numberOne = 8;
 
+        System.out.println("Number one is " + numberOne);
+
         numberTwo = 2;
+
+        System.out.println("Number two is " + numberTwo);
 
         addOneAndTwo = add(numberOne, numberTwo);
 
-        System.out.println(addOneAndTwo);
+        System.out.println("\nTheir addition is " + addOneAndTwo);
 
         multiplyOneAndTwo = multiply(numberOne, numberTwo);
 
-        System.out.println(multiplyOneAndTwo);
+        System.out.println("\nTheir multiplication is " + multiplyOneAndTwo);
 
         subtractOneAndTwo = subtract(numberOne, numberTwo);
 
-        System.out.println(subtractOneAndTwo);
+        System.out.println("\nTheir subtraction is " + subtractOneAndTwo);
 
         divideOneAndTwo = divide(numberOne, numberTwo);
 
-        System.out.println(divideOneAndTwo);
+        System.out.println("\nTheir division is " + divideOneAndTwo);
     }
 
     private static int add(int a, int b) {
