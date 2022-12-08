@@ -2,29 +2,43 @@ package app;
 
 public class Main {
 
-    static int a;
+    static int numberOne;
 
-    static int b;
+    static int numberTwo;
 
-    static int c;
+    static int addOneAndTwo;
 
-    static int e;
+    static int multiplyOneAndTwo;
 
-    static int f;
+    static int subtractOneAndTwo;
+
+    static int divideOneAndTwo;
 
     public static void main(String[] args) {
+
         System.out.println("My app for Users!");
+
         System.out.println("Version 1.0");
-        a = 8;
-        b = 2;
-        c = add(a, b);
-        System.out.println(c);
-        int d = multiply(a, b);
-        System.out.println(d);
-        e = subtract(a, b);
-        System.out.println(e);
-        f = divide(a, b);
-        System.out.println(f);
+
+        numberOne = 8;
+
+        numberTwo = 2;
+
+        addOneAndTwo = add(numberOne, numberTwo);
+
+        System.out.println(addOneAndTwo);
+
+        multiplyOneAndTwo = multiply(numberOne, numberTwo);
+
+        System.out.println(multiplyOneAndTwo);
+
+        subtractOneAndTwo = subtract(numberOne, numberTwo);
+
+        System.out.println(subtractOneAndTwo);
+
+        divideOneAndTwo = divide(numberOne, numberTwo);
+
+        System.out.println(divideOneAndTwo);
     }
 
     private static int add(int a, int b) {
