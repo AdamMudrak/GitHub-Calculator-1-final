@@ -1,7 +1,7 @@
 package app;
 
 public class Main {
-
+static int e;
     public static void main(String[] args) {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
@@ -11,6 +11,8 @@ public class Main {
         System.out.println(c);
         int d = multiply(a, b);
         System.out.println(d);
+        e = subtract(a, b);
+        System.out.println(e);
     }
 
     private static int add(int a, int b) {
@@ -20,4 +22,6 @@ public class Main {
     private static int multiply(int a, int b) {
         return a * b;
     }
+
+    private static int subtract (int a, int b) { return a - b;}
 }
